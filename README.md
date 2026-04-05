@@ -31,6 +31,9 @@ A Django REST Framework backend for a finance dashboard system with role-based a
 
 ## Architecture
 
+> [!NOTE]
+> **Visual Diagrams:** See [`Project_diagram.md`](Project_diagram.md) for ER diagrams, High-Level Architecture, and API flow charts.
+
 ```
 root
 ├── .env.example
