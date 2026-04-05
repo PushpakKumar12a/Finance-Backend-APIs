@@ -9,7 +9,6 @@ from rest_framework_simplejwt.views import (
 
 from accounts import views
 
-
 # Tag the third-party JWT views so they appear under "Auth" in Swagger
 LoginView = extend_schema(tags=['Auth'])(TokenObtainPairView)
 RefreshView = extend_schema(tags=['Auth'])(TokenRefreshView)
